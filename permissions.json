@@ -1,0 +1,23 @@
+[
+    {
+        "front_permit": { "app": "ui", "service": "user", "method": "list", "name": "用户管理", "description": "用户管理增删改查。"},
+        "permissions": [
+            {"service": "user-api", "method": "Users.Delete"},
+            {"service": "user-api", "method": "Users.Update"},
+            {"service": "user-api", "method": "Users.Create"},
+            {"service": "user-api", "method": "Users.Get"},
+            {"service": "user-api", "method": "Users.List"}
+        ]
+    },
+    {
+        "front_permit": { "app": "ui", "service": "user", "method": "roles", "name": "角色管理", "description": "角色管理增删改查。"},
+        "permissions": [
+            {"service": "user-api", "method": "Roles.All"},
+            {"service": "user-api", "method": "Roles.Delete"},
+            {"service": "user-api", "method": "Roles.Update"},
+            {"service": "user-api", "method": "Roles.Create"},
+            {"service": "user-api", "method": "Roles.Get"},
+            {"service": "user-api", "method": "Roles.List"}
+        ]
+    }
+]
