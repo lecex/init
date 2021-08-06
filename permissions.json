@@ -19,5 +19,16 @@
             {"service": "user-api", "method": "Roles.Get"},
             {"service": "user-api", "method": "Roles.List"}
         ]
+    },
+    {
+        "front_permit": { "app": "ui", "service": "user", "method": "micro", "name": "微服务权限管理", "description": "微服务权限管理增删改查。"},
+        "permissions": [
+            {"service": "user-api", "method": "Permissions.All"},
+            {"service": "user-api", "method": "Permissions.Delete"},
+            {"service": "user-api", "method": "Permissions.Update"},
+            {"service": "user-api", "method": "Permissions.Create"},
+            {"service": "user-api", "method": "Permissions.Get"},
+            {"service": "user-api", "method": "Permissions.List"}
+        ]
     }
 ]
